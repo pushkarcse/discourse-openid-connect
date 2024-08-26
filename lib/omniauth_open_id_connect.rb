@@ -216,7 +216,7 @@ module ::OmniAuth
       private
 
       def callback_url
-        full_host + script_name + callback_path
+        "https://techquery.sys.comcast.net/auth/oidc/callback"
       end
 
       def get_token_options
